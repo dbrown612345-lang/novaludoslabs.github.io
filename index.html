@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NovaLudos Labs</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dust-field" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+
+    <a href="#top" class="brand">
+      <img src="Logo.png" alt="[Studio Logo]" class="brand-logo" style="height:48px; width:auto;">
+      <span class="brand-name">NovaLudos Labs<em> Advancing the future of gaming</em></span>
+    </a>
+
+    <nav class="site-nav">
+      <nav class="site-nav">
+
+  <div class="nav-item dropdown">
+    <a href="#games">Games</a>
+
+    <div class="dropdown-menu">
+      <a href="#games">Coming to Steam</a>
+      <a href="html-games.html">HTML Games for fun (made by Daniel)</a>
+    </div>
+  </div>
+
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-slash" aria-hidden="true"></div>
+
+    <div class="wrap hero-inner">
+
+      <!-- ⭐ Replace with your hero/banner image -->
+      <img class="hero-banner" src="novaludos-banner.png" alt="[Hero Banner]">
+
+
+      <h1 class="hero-title">
+        NovaLudos Labs
+      </h1>
+
+      <p class="hero-sub">
+        Advancing the future of gaming, one game at a time, with actual intelligence.
+      </p>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="https://www.youtube.com/@ZandriaxLabs">Youtube</a>
+        <a class="btn btn-ghost" href="https://github.com/novaludos">GitHub</a>
+      </div>
+
+    </div>
+
+    <div class="shard shard-a" aria-hidden="true"></div>
+    <div class="shard shard-b" aria-hidden="true"></div>
+  </section>
+
+  <!-- GAMES -->
+  <section id="games" class="games">
+    <div class="wrap">
+
+      <h2 class="section-title">Games coming to steam</h2>
+
+      <!-- ⭐ GAME CARD TEMPLATE -->
+      <article class="game-card">
+
+        <div class="game-card-media">
+          <!-- Replace with real game art -->
+          <img class="Any-Image" src="novaludos-banner.png" alt="[GAME ART]">
+        </div>
+
+        <div class="game-card-body">
+          <p class="game-status">STATUS: In Development</p>
+
+          <h3 class="game-title">DustWhip</h3>
+
+          <p class="game-desc">
+            SECRET
+          </p>
+
+          <div class="game-links">
+            <a class="btn btn-small" href="#">Coming to Steam in 2028</a>
+          </div>
+        </div>
+
+      </article>
+
+      <p class="more-soon">MORE PROJECTS COMING SOON</p>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="wrap about-inner">
+
+      <div class="about-text">
+        <h2 class="section-title">Advancing the future of gaming, one game at a time, with actual intelligence.</h2>
+
+        <p>Novaludos Labs is an indie game studio of friends, Zach, Aaron, Bretton, Daniel and Jace. We are working to advance the future of gaming & technology.</p>
+        <p>We are a team of young, passionate developers still in the early stages of our journey.</p>
+      </div>
+
+      <div class="about-mark" aria-hidden="true">
+        <!-- Replace with your studio photo or art -->
+        <img src="ABOUT.png" alt="">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- meet the team -->
+  <section id="team" class="team">
+    <div class="wrap team-inner">
+
+      <h2 class="section-title">Meet The Team</h2>
+
+      <div class="team-members">
+
+        <div class="team-member">
+          <img src="Daniel.jpg" alt="Daniel">
+          <h3 class="team-member-name"> Daniel</h3>
+          <p class="team-member-role"> Lead Developer</p>
+          <p class="team-member-short-description"> []</p>
+          <img src="Bretton.jpg" alt="Bretton">
+          <h3 class="team-member-name"> Bretton</h3>
+          <p class="team-member-role"> Lead Designer</p>
+          <p class="team-member-short-description"> []</p>
+        </div>
+
+        <!-- Add more team members as needed -->
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="wrap contact-inner">
+
+      <p class="eyebrow">[CONTACT EYEBROW]</p>
+      <h2 class="section-title">[Contact Title]</h2>
+
+      <p class="contact-sub">[SHORT CONTACT DESCRIPTION]</p>
+
+
+      <div class="socials">
+        <a href="#">Youtube</a>
+        <a href="#">Discord</a>
+        <a href="#">Github</a>
+        <a href="mailto:dbrown612345@gmail.com">Email Us</a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>&copy; <span id="year"></span>Novaludos Labs</span>
+    <span class="footer-note">Advancing the future of gaming, one game at a time, with actual intelligence.</span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
